@@ -1,0 +1,53 @@
+.contactContainer 
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.contactCardText 
+{
+    font-size: 10px;
+    font-weight: bold;
+    padding-top: 5px;
+    margin: 0;
+    color: var(--primary-color);
+}
+
+.logoCard 
+{
+    background-color: #ffff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-color);
+    padding: 20px;
+    margin: 50px;
+}
+
+.logo 
+{
+    width: 180px;
+    height: 180px;
+}
+
+.titleName 
+{
+    color: var(--secondary-color);
+}
+
+.contactPageText 
+{
+    font-weight: bold;
+    color: var(--primary-color);
+    padding-left: 19%;
+}
+
+h2 
+{
+    font-size: 40px;
+    padding-left: 265px;    
+}
+
+body 
+{
+    background-color: var(--secondary-color);
+}

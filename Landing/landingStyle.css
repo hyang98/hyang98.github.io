@@ -1,0 +1,62 @@
+.landingPageGridContainer 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    align-items: center;
+}
+
+.landingPageImageContainer img 
+{
+    max-width: 100%;
+    height: 15%;
+}
+
+.landingPageIntroContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+
+.landingPageIntroText
+{
+    z-index: 1;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+.landingPagePTag 
+{
+    color: black;
+}
+.landingPageHTag 
+{
+    color: var(--primary-color);
+}
+
+.contactContainer 
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.logoCard 
+{
+    background-color: #ffff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-color);
+    padding: 10px;
+    margin: 20px;
+}
+
+.logo 
+{
+    width: 50px;
+    height: 50px;
+}
