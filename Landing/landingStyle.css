@@ -80,3 +80,26 @@ body
         height: 10%;
     }
 }
+
+@media(max-height:844px) 
+{
+    .landingPagePTag 
+    {
+        font-size: 35px;
+    }
+    
+    .landingPageHTag 
+    {
+        font-size: 35px;
+    }
+
+    .landingPageTextContainer 
+    {
+        height: 70%;
+    }
+
+    .landingPageImageContainer img 
+    {
+        height: 100vh;
+    }
+}
