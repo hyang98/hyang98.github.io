@@ -1,0 +1,45 @@
+table 
+{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+
+th 
+{
+    background-color: var(--accent-color-1);
+    color: var(--secondary-color);
+    text-align: left;
+    padding: 15px;
+}
+
+
+tr:nth-child(even) 
+{
+    background-color: var(--accent-color-3);
+}
+
+td 
+{
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.titleName 
+{
+    color: var(--secondary-color);
+}
+
+@media(max-width:600px) 
+{
+    .experienceSection 
+    {
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .bulletPointSection
+    {
+        font-size: 10px;
+    }
+}

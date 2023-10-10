@@ -2,6 +2,7 @@
 {
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 5px;
 }
 
 .imageGrid 
@@ -33,15 +34,8 @@
 .GDBText 
 {
     padding-left: 50px;    
-    padding-bottom: 15px;
     color: var(--accent-color-1);
     font-weight: bold;
-}
-
-h2 
-{
-    font-size: 40px;
-    padding-left: 265px;    
 }
 
 @media(max-width:600px) 
