@@ -46,15 +46,20 @@ body
     background-color: var(--secondary-color);
 }
 
-@media(max-width:600px) 
+@media (max-width:600px) 
 {
+    .contactContainer 
+    {
+        flex-direction: column;
+    }
+
+    .contactCardText 
+    {
+        font-size: 35px;
+    }
+
     .contactPageText 
     {
-        text-align: center;
-    }
-    
-    h2 
-    {
-        text-align: center;
+        font-size: 35px;
     }
 }
