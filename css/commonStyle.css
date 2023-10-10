@@ -47,8 +47,8 @@ a
 
 .pineapple 
 {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     vertical-align: middle;
 }
 
@@ -102,5 +102,8 @@ nav ul li a:hover
 
 @media(max-width: 600px)
 {
-
+    .titleName 
+    {
+        font-size: 12px;
+    }
 }
